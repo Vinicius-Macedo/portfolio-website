@@ -17,7 +17,7 @@ export default function FaqSection() {
           {
             title:
               "Quanto custa para ter um site/sistema rápido e belo para o meu negócio?",
-            text: "Com preços acessíveis, entre R$ 100,00 e R$ 500,00, ofereço uma ampla variedade de opções para atender às suas necessidades e orçamento.\n Focando em criar um site que reflita sua marca e atenda às suas necessidades funcionais. Ofereço uma variedade de opções de design, desde layouts modernos e minimalistas até designs mais elaborados e personalizados",
+            text: "Com preços acessíveis, entre R$ 100,00 e R$ 700,00, ofereço uma ampla variedade de opções para atender às suas necessidades e orçamento.\n Focando em criar um site que reflita sua marca e atenda às suas necessidades funcionais. Ofereço uma variedade de opções de design, desde layouts modernos e minimalistas até designs mais elaborados e personalizados",
           },
           {
             title: "Por que valor é tão barato?",
