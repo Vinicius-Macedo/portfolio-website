@@ -46,12 +46,13 @@ export default function HeroSection() {
         <button className="bg-green hover:darkgreen text-black px-16 py-6 rounded-full font-bold">
           Quem sou eu?
         </button>
+        {/* <div className="flex flex-col gap-8 absolute left-0 top-1/2 -translate-y-1/2">
+          <AiFillGithub size={40} />
+          <AiFillLinkedin size={40} />
+          <AiOutlineInstagram size={40} />
+        </div> */}
       </div>
-      <div className="flex flex-col gap-8 absolute left-0 top-1/2 -translate-y-1/2">
-        <AiFillGithub       size={35} />
-        <AiFillLinkedin     size={35} />
-        <AiOutlineInstagram size={35} />
-      </div>
+
       <Image
         className=" opacity-[.1] absolute left-[40%] top-[45%] transform -translate-x-1/2 -translate-y-1/2 -z-10 w-[700px] max-w-none md:w-[800px]"
         src={"/decoration-logo.svg"}

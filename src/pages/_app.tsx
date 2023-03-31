@@ -14,9 +14,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <Head>
           <title>Vinicius Macedo - Desenvolvedor Web</title>
         </Head>
-        <Header />
+        {/* <Header /> */}
         <Component {...pageProps} />
-        <Footer />
+        {/* <Footer /> */}
       </CardTextProvider>
     </>
   );

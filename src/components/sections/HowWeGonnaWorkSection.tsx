@@ -156,7 +156,7 @@ export default function HowWeGonnaWorkSection() {
             <ProcessCard
               title={"Suporte e lançamento"}
               description={
-                "Esse será o momento em que você poderá deslumbrar o que precisava, será uma revisão geral de nós dois onde faremos os ajustes necessários para a próxima e última etapa."
+                "Nesse momento está tudo pronto, seu projeto vai estar online funcionando com vida e com minha equipe monitorando e prestando suporte conforme o combinado!"
               }
               number={4}
             />

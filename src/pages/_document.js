@@ -44,7 +44,7 @@ export default function Document() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="https://vinicius-macedo.vercel.app/" />
         <meta
           property="og:title"
           content="Vinicius Macedo - Desenvolvedor Web"
@@ -55,11 +55,11 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/Vinicius-Macedo/portfolio/main/social-media-card.png"
+          content="/social-media-card.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="https://vinicius-macedo.vercel.app/" />
         <meta
           property="twitter:title"
           content="Vinicius Macedo - Desenvolvedor Web"
@@ -70,7 +70,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://raw.githubusercontent.com/Vinicius-Macedo/portfolio/main/social-media-card.png"
+          content="/social-media-card.png"
         />
       </Head>
       <body className="bg-black">
