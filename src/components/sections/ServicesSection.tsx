@@ -13,6 +13,7 @@ import Image from "next/image";
 export default function ServicesSection() {
   return (
     <DefaultMarginSection
+      id="servicos"
       className="flex flex-col gap-32"
       sectionBottom={
         <Image

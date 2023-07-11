@@ -63,5 +63,26 @@ html {
   
 }
 
+.whatsapp-button-fixed {
+  z-index: 999;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  background: #25d366;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 999px;
+  width: 60px;
+  height: 60px;
+}
+
+.whatsapp-button-fixed svg {
+  width: 30px;
+  height: 30px;
+}
+
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Ubuntu', sans-serif;

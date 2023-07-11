@@ -61,37 +61,65 @@ export function Header() {
         </Link>
         <ul className="lista">
           <li className="item">
-            <Link href="/" className="link">
+            <Link
+              href="#inicio"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Home
             </Link>
           </li>
           <li className="item">
-            <Link href="/#sobre" className="link">
+            <Link
+              href="#quem-sou-eu"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Sobre
             </Link>
           </li>
           <li className="item">
-            <Link href="/#servicos" className="link">
+            <Link
+              href="#servicos"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Serviços
             </Link>
           </li>
           <li className="item">
-            <Link href="/#skills" className="link">
+            <Link
+              href="#skills"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Minhas Skills
             </Link>
           </li>
           <li className="item">
-            <Link href="/#portfolio" className="link">
+            <Link
+              href="/#portfolio"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Portfólio
             </Link>
           </li>
           <li className="item">
-            <Link href="/#faq" className="link">
+            <Link
+              href="/#faq"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               FAQ
             </Link>
           </li>
           <li className="item">
-            <Link href="/#contato" className="link">
+            <Link
+              href="/#contato"
+              className="link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Contato
             </Link>
           </li>

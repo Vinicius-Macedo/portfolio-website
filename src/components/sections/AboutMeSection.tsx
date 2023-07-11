@@ -9,6 +9,7 @@ import loader from "../../loader";
 export default function AboutMeSection() {
   return (
     <DefaultMarginSection
+      id="quem-sou-eu"
       containerClassname="bg-[#0F0E0E] overflow-hidden"
       className="flex flex-col items-center gap-16 md:gap-32 lg:flex-row"
       sectionBottom={

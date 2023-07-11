@@ -3,12 +3,12 @@ import imageLoader from "../../loader";
 import { DefaultMarginSection } from "../DefaultMarginSection";
 import Image from "next/image";
 import useTyping from "../../hooks/useTyping";
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai";
+import IconButton from "../IconButton";
 
 export default function HeroSection() {
   const typedWords = useTyping([
@@ -19,6 +19,7 @@ export default function HeroSection() {
 
   return (
     <DefaultMarginSection
+      id="inicio"
       containerClassname="overflow-hidden pt-40"
       sectionBottom={
         <Image
@@ -43,14 +44,20 @@ export default function HeroSection() {
         <p className="text-size blink-animation max-w-[310px] h-[101px]">
           Me chamo Vinícius, sou um desenvolvedor web que vai {typedWords}
         </p>
-        <button className="bg-green hover:darkgreen text-black px-16 py-6 rounded-full font-bold">
+        <a
+          href="#quem-sou-eu"
+          className="bg-green hover:darkgreen text-black px-16 py-6 rounded-full font-bold"
+        >
           Quem sou eu?
-        </button>
-        {/* <div className="flex flex-col gap-8 absolute left-0 top-1/2 -translate-y-1/2">
-          <AiFillGithub size={40} />
-          <AiFillLinkedin size={40} />
-          <AiOutlineInstagram size={40} />
-        </div> */}
+        </a>
+        <div className="flex flex-col absolute left-0 top-1/2 -translate-y-1/2">
+          <IconButton iconComponent={<AiFillGithub size={35} />} link={""} />
+          <IconButton iconComponent={<AiFillLinkedin size={35} />} link={""} />
+          <IconButton
+            iconComponent={<AiOutlineInstagram size={35} />}
+            link={""}
+          />
+        </div>
       </div>
 
       <Image

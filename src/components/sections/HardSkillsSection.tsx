@@ -19,6 +19,7 @@ export default function HardSkillsSection() {
 
   return (
     <DefaultMarginSection
+      id="skills"
       extraSpace={true}
       className="flex flex-col gap-16 sm:gap-16 items-center"
       containerClassname="bg-dark"

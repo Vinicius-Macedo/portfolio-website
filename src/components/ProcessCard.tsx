@@ -6,7 +6,7 @@ type ProcessCardProps = {
 
 export default function ProcessCard(props: ProcessCardProps) {
   return (
-    <div className="w-full max-w-[550px] bg-black p-16 flex flex-col gap-16 relative">
+    <div className="w-full bg-black p-16 flex flex-col gap-16 relative">
       <h3 className="text-[28px] sm:text-[32px] font-ubuntu">
         <span className="text-green">{props.number}.</span> {props.title}
       </h3>
