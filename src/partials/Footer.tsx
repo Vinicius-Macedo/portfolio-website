@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer></footer>
       <a
-        href="https://api.whatsapp.com/send?phone=5511945928976"
+        href="https://api.whatsapp.com/send?phone=5511933457661"
         target="_blank"
         aria-label="link para o nosso whatsapp"
         className="whatsapp-button-fixed"
@@ -14,11 +14,11 @@ export default function Footer() {
           xmlns="http://www.w3.org/2000/svg"
           width="64"
           height="64"
-          shape-rendering="geometricPrecision"
-          text-rendering="geometricPrecision"
-          image-rendering="optimizeQuality"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          shapeRendering="geometricPrecision"
+          textRendering="geometricPrecision"
+          imageRendering="optimizeQuality"
+          fillRule="evenodd"
+          clipRule="evenodd"
           viewBox="0 0 640 640"
         >
           {" "}

@@ -5,6 +5,7 @@ import { FaqItemsArray } from "../FaqItemsArray";
 export default function FaqSection() {
   return (
     <DefaultMarginSection
+      id="faq"
       extraSpace={true}
       containerClassname="bg-dark"
       className="flex flex-col gap-16"

@@ -22,12 +22,31 @@ export default function HowWeGonnaWorkSection() {
             description={
               "Projeto feito toalmente as pressas, pedido as 8h e entregue as 18h do mesmo dia"
             }
-            image={"spa-layout.jpg"}
+            image={"/spa-layout.jpg"}
             link={
               "https://www.figma.com/file/xfH2dygKPM9OmTAjTjIUUP/All?type=design&node-id=0-1&mode=design&t=psexYlBDdy7gfziB-0"
             }
           />
-
+          <PortfolioItem
+            title={"Design e código de LP sobre IA"}
+            description={
+              "Design e código de LP simples para promover um serviço de IA, veja o código agora!"
+            }
+            image={"/ia-lp.png"}
+            link={
+              "https://github.com/Vinicius-Macedo/lp-ia"
+            }
+          />
+          <PortfolioItem
+            title={"Zapscreen - Página super rápida"}
+            description={
+              "Embora a nota tenha dimunuído por conta do cliente ter trocado as imagens, é um exemplo de como mando bem no pagespeed"
+            }
+            image={"/zap-screen.png"}
+            link={
+              "https://www.zapscreen.com.br/"
+            }
+          />
         </div>
       </DefaultMarginSection>
     </>

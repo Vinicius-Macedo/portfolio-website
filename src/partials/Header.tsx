@@ -116,11 +116,12 @@ export function Header() {
           </li>
           <li className="item">
             <Link
-              href="/#contato"
+              href="https://wa.me/5511933457661"
               className="link"
+              target="_blank"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contato
+              Fale comigo
             </Link>
           </li>
         </ul>

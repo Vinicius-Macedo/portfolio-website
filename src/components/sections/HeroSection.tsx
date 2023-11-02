@@ -50,14 +50,14 @@ export default function HeroSection() {
         >
           Quem sou eu?
         </a>
-        <div className="flex flex-col absolute left-0 top-1/2 -translate-y-1/2">
+        {/* <div className="flex flex-col absolute left-0 top-1/2 -translate-y-1/2">
           <IconButton iconComponent={<AiFillGithub size={35} />} link={""} />
           <IconButton iconComponent={<AiFillLinkedin size={35} />} link={""} />
           <IconButton
             iconComponent={<AiOutlineInstagram size={35} />}
             link={""}
           />
-        </div>
+        </div> */}
       </div>
 
       <Image

@@ -105,7 +105,8 @@ export default function AboutMeSection() {
           </p>
         </div>
         <Link
-          href={"#"}
+          href={"https://api.whatsapp.com/send?phone=5511933457661"}
+          target="_blank"
           className="flex items-center text-green text-size font-semibold cursor-pointer  animation-container p-8 lg:pl-0"
         >
           Fale comigo
