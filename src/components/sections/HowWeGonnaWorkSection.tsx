@@ -1,6 +1,5 @@
 // AINDA EM CONSTRUÇÃO UM SUPER EFEITO DE SCROLLING
 
-import React, { useEffect, useState } from "react";
 import { DefaultMarginSection } from "../DefaultMarginSection";
 import ProcessCard from "../ProcessCard";
 
