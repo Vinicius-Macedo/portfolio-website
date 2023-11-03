@@ -31,7 +31,7 @@ export function PortfolioItem(props: Props) {
           height={0}
           loader={loader}
           unoptimized
-          className="w-auto h-auto cursor-pointer"
+          className="w-auto h-auto hover:scale-105 transition duration-500 cursor-pointer"
           onClick={() => setisopen(true)}
         />
         <div
