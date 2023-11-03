@@ -36,7 +36,7 @@ export function PortfolioItem(props: Props) {
         />
         <div
           className={
-            "fixed z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[80vh] bg-[#131111] p-8 rounded gap-8" +
+            "fixed z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[80vh] bg-[#131111] p-8 rounded gap-8 flex-col-reverse w-full overflow-y-scroll lg:flex-row" +
             (isOpen ? " flex" : " hidden")
           }
         >
