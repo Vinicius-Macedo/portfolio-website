@@ -119,6 +119,7 @@ export function Header() {
               href="https://wa.me/5511933457661"
               className="link"
               target="_blank"
+              rel="noreferrer"
               onClick={() => setIsMenuOpen(false)}
             >
               Fale comigo
