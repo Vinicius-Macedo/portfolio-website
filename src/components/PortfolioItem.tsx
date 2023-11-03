@@ -36,19 +36,10 @@ export function PortfolioItem(props: Props) {
         />
         <div
           className={
-            "fixed z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[80vh] bg-[#131111] p-8 rounded gap-8 flex-col-reverse w-full overflow-y-scroll lg:flex-row" +
+            "fixed z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[80vh] bg-[#131111] p-8 rounded gap-8 flex-col lg:flex-row-reverse w-full lg:w-auto overflow-y-scroll" +
             (isOpen ? " flex" : " hidden")
           }
         >
-          <Image
-            src={props.image}
-            alt={""}
-            width={0}
-            height={0}
-            loader={loader}
-            className="w-auto h-full max-w-[80vh] cursor-pointer object-cover"
-            onClick={() => setisopen(true)}
-          />
           <article className="w-full lg:w-[300px] h-full flex flex-col it gap-8 p-8 relative">
             <div
               className="absolute top-0 right-0 p-4 cursor-pointer"
@@ -114,6 +105,15 @@ export function PortfolioItem(props: Props) {
             </div>
             <div></div>
           </article>
+          <Image
+            src={props.image}
+            alt={""}
+            width={0}
+            height={0}
+            loader={loader}
+            className="w-full lg:w-auto h-full lg:max-w-[80vh] cursor-pointer object-cover"
+            onClick={() => setisopen(true)}
+          />
         </div>
         <div
           className={
