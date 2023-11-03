@@ -7,6 +7,7 @@ export default function Footer() {
       <a
         href="https://api.whatsapp.com/send?phone=5511933457661"
         target="_blank"
+        rel="noreferrer"
         aria-label="link para o nosso whatsapp"
         className="whatsapp-button-fixed"
       >
