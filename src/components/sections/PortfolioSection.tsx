@@ -24,7 +24,7 @@ export default function HowWeGonnaWorkSection() {
             }
             image={"/spa-layout.jpg"}
             link={
-              "https://www.figma.com/file/xfH2dygKPM9OmTAjTjIUUP/All?type=design&node-id=0-1&mode=design&t=psexYlBDdy7gfziB-0"
+              "https://www.figma.com/proto/xfH2dygKPM9OmTAjTjIUUP/All?type=design&node-id=824-173&t=l6fQo4d6YzIRqfyC-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=824%3A3045"
             }
           />
           <PortfolioItem
