@@ -28,7 +28,7 @@ export default function HowWeGonnaWorkSection() {
             }
           />
           <PortfolioItem
-            title={"Design e código de LP sobre IA"}
+            title={"Design e código para página de serviços em IA"}
             description={
               "Design e código de LP simples para promover um serviço de IA, veja o código agora!"
             }
