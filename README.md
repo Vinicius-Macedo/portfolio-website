@@ -1,4 +1,4 @@
-## Portfólio pessoal com Html, Css e Javascript
+## Portfólio pessoal com Html, Css, Javascript e UI/UX Design
 
 Este é um projeto de portfólio desenvolvido utilizando Next.js, que foi inicializado com create-next-app. O objetivo deste projeto é demonstrar minhas habilidades em HTML, CSS e JavaScript utilizando a React (sem bibliotecas adicionais).
 
@@ -20,3 +20,6 @@ Você pode começar a editar a página modificando o arquivo pages/index.tsx. A 
 Este projeto foi desenvolvido como parte do meu portfólio para demonstrar minhas habilidades em desenvolvimento web front-end, utilizando tecnologias modernas como HTML, CSS, JavaScript e React. Além disso, estou utilizando o Next.js para criar uma aplicação performática e otimizada, com suporte a rotas dinâmicas e API routes.
 
 Espero que este projeto ajude a ilustrar minhas capacidades e conhecimentos na área de desenvolvimento web. Agradeço por dedicar seu tempo para conferir meu trabalho!
+
+![Alt text](https://raw.githubusercontent.com/Vinicius-Macedo/portfolio-website/main/public/social-media-card.webp)
+
